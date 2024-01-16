@@ -1,0 +1,15 @@
+/* ハンバーガーボタン用チェックボックス、完成後noneにする */
+.ck-burger {
+    display: block;
+}
+/* ハンバーガーのボタン */
+.btn-burger {
+    position: absolute;
+    top: 25px;
+    right: 15px;
+    z-index: 2; /* 解説：重なり順。数値が大きいほど上に配置、初期値は0 */
+    display: block;
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+}
